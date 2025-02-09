@@ -23,6 +23,7 @@ The data cleaning process focused on identifying and addressing missing values, 
 Additional cleaning steps were taken to further improve data quality:
 
 Product_type_id: Missing values were replaced with mode ,which is the most frequent occurring value in the column. This decision as made because product_type_ids are categorical, and using the most common category maintained data consistency. The mode was calculated using  Excel’s formula : =MODE(E2:E3631). The result was used to replace all the missing values.
+
 Product_length: Missing values were replaced with median to avoid the influence of extreme values.The median was calculated using Excel’s formula : =MEDIAN(F2:F3631). This ensured that the product _lengths column data were maintained without skewing the data.
 
 3. Standardizing Column Names:
@@ -32,7 +33,7 @@ The column names had inconsistent capitalizations and were converted to lowercas
  I ensured all numeric columns were properly formatted as numbers and text column as text.
 
 
-  Short Title Creation 
+Short Title Creation 
 
 Product titles were too long, making them hard to read. To make them shorter and simpler while retaining the key information,Short titles were created by extracting the first meaningful part of the original titles and  limiting them to 50 characters.This step improved readability of the dataset, especially for analysis and purpose. 
 
