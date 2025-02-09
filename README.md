@@ -11,14 +11,6 @@ comprehensive set of product data for analysis.
 [Download dataset here](https://docs.google.com/spreadsheets/d/18p4cUhyvUpRzpaq2fzCj1EmKcZyk9PmG/edit?usp=drive_link&ouid=103126208255939870793&rtpof=true&sd=true).
 # This report outlines the steps taken to clean and process the dataset.
 
-Data Cleaning Report
-
-1.0	Introduction
-
-This report outlines the steps taken to clean and process the dataset.The provided dataset, consisting of 3847 rows, contained information about various products, including product titles, descriptions, bullet points, product type and dimensions. Cleaning this data was necessary to ensure accuracy and consistency. The goal was to fix missing information, remove duplicates, and format the data properly. Additionally, short titles were created for better readability and search purposes.
-
-2.0	Data Cleaning:
-
 The data cleaning process focused on identifying and addressing missing values, removing duplicates, standardizing formats, and creating short product titles to improve readability.
 
 1. Duplicate Removal:
@@ -40,7 +32,7 @@ The column names had inconsistent capitalizations and were converted to lowercas
  I ensured all numeric columns were properly formatted as numbers and text column as text.
 
 
-3.0  Short Title Creation 
+  **Short Title Creation **
 
 Product titles were too long, making them hard to read. To make them shorter and simpler while retaining the key information,Short titles were created by extracting the first meaningful part of the original titles and  limiting them to 50 characters.This step improved readability of the dataset, especially for analysis and purpose. 
 
@@ -59,7 +51,7 @@ As
 
 
 
-4.0	Clean Dataset Overview
+	**Clean Dataset Overview**
 
 After cleaning, the dataset now has:
 
