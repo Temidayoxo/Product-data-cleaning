@@ -1,4 +1,6 @@
-# Product-data-cleaning
+# Marketing Data Optimization:
+Cleaning,Standardization, and SEO-Driven Title
+Enhancement
 # OVERVIEW
 This dataset contains information about various product titles,description,bullet points,product types and dimension.Cleaning this data was necessary to ensure accuracy and consistency. The goal was to fix missing information, remove duplicates, and format the data properly. Additionally, short titles were created for better readability and search purposes.
 # [Download dataset here](https://docs.google.com/spreadsheets/d/18p4cUhyvUpRzpaq2fzCj1EmKcZyk9PmG/edit?usp=drive_link&ouid=103126208255939870793&rtpof=true&sd=true).
