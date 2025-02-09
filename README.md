@@ -10,9 +10,7 @@ Using the data.shape function, it was discovered that the dataset contains 3,847
 comprehensive set of product data for analysis.
 [Download dataset here](https://docs.google.com/spreadsheets/d/18p4cUhyvUpRzpaq2fzCj1EmKcZyk9PmG/edit?usp=drive_link&ouid=103126208255939870793&rtpof=true&sd=true).
 # This report outlines the steps taken to clean and process the dataset.
-[Read the fulll report here](https://docs.google.com/document/d/1w6C6_KuqdFrXz8FUu1Y9O1EjB9joZ5GN/edit).
-# Here's the link to the cleaned dataset 
-(https://docs.google.com/spreadsheets/d/1PtQ2xA81Kyf_R_tSbKRtrQJlo3HnmJ4O/edit?usp=drive_link&ouid=103126208255939870793&rtpof=true&sd=true).
+
 Data Cleaning Report
 
 1.0	Introduction
@@ -79,3 +77,5 @@ Clear placeholders for missing data
 
 
 This clean version is saved as ’cleaned _product_data’ which is better organized and ready for further use in analysis or reporting tasks.
+# Here's the link to the cleaned dataset 
+(https://docs.google.com/spreadsheets/d/1PtQ2xA81Kyf_R_tSbKRtrQJlo3HnmJ4O/edit?usp=drive_link&ouid=103126208255939870793&rtpof=true&sd=true).
